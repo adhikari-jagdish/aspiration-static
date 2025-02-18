@@ -1,300 +1,304 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Itinerary Page</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Finger+Paint&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body style="font-family: 'Outfit'">
-    <!--Top Notice Header Starts-->
-    <div
-      class="bg-[#385c84] text-white py-2 px-4 flex justify-between items-center"
-    >
-      <!-- Title at Center -->
-      <div class="w-full text-center">
-        <span class="textBlink underline text-2xl font-semibold">
-          Nepal Trekking and Expedition Booking Open for 2025/26
-        </span>
-      </div>
-      <!-- Social Icons on Right -->
-      <div class="bg-white/20 p-2 rounded-lg flex space-x-3">
-        <a
-          href="#"
-          class="text-white text-sm hover:text-yellow-400 transition duration-00 ease-in-out"
-          ><i class="fa fa-facebook"></i
-        ></a>
-        <a
-          href="#"
-          class="text-white text-sm hover:text-yellow-400 transition duration-00 ease-in-out"
-          ><i class="fa fa-instagram"></i
-        ></a>
-        <a
-          href="#"
-          class="text-white text-sm hover:text-yellow-400 transition duration-00 ease-in-out"
-          ><i class="fa fa-linkedin"></i
-        ></a>
-        <a
-          href="#"
-          class="text-white text-sm hover:text-yellow-400 transition duration-00 ease-in-out"
-          ><i class="fa fa-twitter"></i
-        ></a>
-      </div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Itinerary Page</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Finger+Paint&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body style="font-family: 'Outfit'">
+  <!--Top Notice Header Starts-->
+  <div class="bg-[#385c84] text-white py-2 px-4 flex justify-between items-center">
+    <!-- Title at Center -->
+    <div class="w-full text-center">
+      <span class="textBlink underline text-2xl font-semibold">
+        Nepal Trekking and Expedition Booking Open for 2025/26
+      </span>
     </div>
-    <!--Top Notice Header Ends-->
+    <!-- Social Icons on Right -->
+    <div class="bg-white/20 p-2 rounded-lg flex space-x-3">
+      <a href="#" class="text-white text-sm hover:text-yellow-400 transition duration-00 ease-in-out"><i
+          class="fa fa-facebook"></i></a>
+      <a href="#" class="text-white text-sm hover:text-yellow-400 transition duration-00 ease-in-out"><i
+          class="fa fa-instagram"></i></a>
+      <a href="#" class="text-white text-sm hover:text-yellow-400 transition duration-00 ease-in-out"><i
+          class="fa fa-linkedin"></i></a>
+      <a href="#" class="text-white text-sm hover:text-yellow-400 transition duration-00 ease-in-out"><i
+          class="fa fa-twitter"></i></a>
+    </div>
+  </div>
+  <!--Top Notice Header Ends-->
 
-    <div
-      class="flex items-center justify-between bg-white py-2 px-4 md:px-10 border-b border-gray-200"
-    >
-      <!-- Logo -->
-      <div>
-        <img
-          src="https://i.ibb.co/N2WHzdZv/aspiration-logo-2.png"
-          alt="Aspiration Asia Logo"
-          class="h-20"
-        />
+  <div class="flex items-center justify-between bg-white py-2 px-4 md:px-10 border-b border-gray-200">
+    <!-- Logo -->
+    <div>
+      <img src="https://i.ibb.co/N2WHzdZv/aspiration-logo-2.png" alt="Aspiration Asia Logo" class="h-20" />
+    </div>
+
+    <!-- Contact Info -->
+    <div class="flex space-x-6 items-center text-[#0c3765]">
+      <!-- Address -->
+      <div class="flex items-center space-x-2">
+        <div class="bg-[#0c3765] text-white p-3 rounded">
+          <i class="fa fa-globe"></i>
+        </div>
+        <div>
+          <p class="text-sm font-semibold">Company address</p>
+          <p class="text-base font-medium">Bhaktapur, Nepal</p>
+        </div>
       </div>
 
-      <!-- Contact Info -->
-      <div class="flex space-x-6 items-center text-[#0c3765]">
-        <!-- Address -->
-        <div class="flex items-center space-x-2">
-          <div class="bg-[#0c3765] text-white p-3 rounded">
-            <i class="fa fa-globe"></i>
-          </div>
-          <div>
-            <p class="text-sm font-semibold">Company address</p>
-            <p class="text-base font-medium">Bhaktapur, Nepal</p>
-          </div>
+      <!-- Email -->
+      <div class="hidden md:flex items-center space-x-2 border-l border-gray-300 pl-4">
+        <div class="bg-[#0c3765] text-white p-3 rounded">
+          <i class="fa fa-envelope"></i>
         </div>
-
-        <!-- Email -->
-        <div
-          class="hidden md:flex items-center space-x-2 border-l border-gray-300 pl-4"
-        >
-          <div class="bg-[#0c3765] text-white p-3 rounded">
-            <i class="fa fa-envelope"></i>
-          </div>
-          <div>
-            <p class="text-sm font-semibold">Send an email</p>
-            <p class="text-base font-medium text-blue-500">
-              sales@aspirationasia.com
-            </p>
-          </div>
+        <div>
+          <p class="text-sm font-semibold">Send an email</p>
+          <p class="text-base font-medium text-blue-500">
+            sales@aspirationasia.com
+          </p>
         </div>
+      </div>
 
-        <!-- Phone -->
-        <div class="flex items-center space-x-2 border-l border-gray-300 pl-4">
-          <div class="bg-[#0c3765] text-white p-3 rounded">
-            <i class="fa fa-phone-square"></i>
-          </div>
-          <div>
-            <p class="text-sm font-semibold">Helpline and support</p>
-            <p class="text-base font-medium text-blue-500">+9779746239349</p>
-          </div>
+      <!-- Phone -->
+      <div class="flex items-center space-x-2 border-l border-gray-300 pl-4">
+        <div class="bg-[#0c3765] text-white p-3 rounded">
+          <i class="fa fa-phone-square"></i>
+        </div>
+        <div>
+          <p class="text-sm font-semibold">Helpline and support</p>
+          <p class="text-base font-medium text-blue-500">+9779746239349</p>
         </div>
       </div>
     </div>
-    <!--Header Logo Number and Email Detail Ends-->
+  </div>
+  <!--Header Logo Number and Email Detail Ends-->
 
-    <nav class="z-50 sticky w-full bg-[#0c3765] text-white p-4">
-      <div class="container mx-auto flex justify-center items-center">
-        <!-- Menu -->
-        <ul id="menu" class="hidden md:flex space-x-12">
-          <li>
-            <i class="fa fa-home" aria-hidden="true"></i>
-            <a href="#" class="hover:text-gray-300">HOME</a>
-          </li>
-          <!-- Dropdown 1 -->
-          <li class="relative group">
-            <a href="#" class="hover:text-gray-300">DESTINATIONS</a>
+  <nav class="z-50 sticky w-full bg-[#0c3765] text-white p-4">
+    <div class="container mx-auto flex justify-center items-center">
+      <!-- Menu -->
+      <ul id="menu" class="hidden md:flex space-x-12">
+        <li>
+          <i class="fa fa-home" aria-hidden="true"></i>
+          <a href="#" class="hover:text-gray-300">HOME</a>
+        </li>
+        <!-- Dropdown 1 -->
+        <li class="relative group">
+          <a href="#" class="hover:text-gray-300">DESTINATIONS</a>
+          <ul
+            class="absolute left-0 mt-2 w-48 bg-white text-gray-900 rounded-md shadow-lg opacity-0 group-hover:opacity-100 group-hover:translate-y-1 transition-all duration-300 ease-in-out">
             <ul
-              class="absolute left-0 mt-2 w-48 bg-white text-gray-900 rounded-md shadow-lg opacity-0 group-hover:opacity-100 group-hover:translate-y-1 transition-all duration-300 ease-in-out"
-            >
-              <ul
-                class="absolute left-0 mt-2 w-48 bg-white text-gray-900 rounded-md shadow-lg opacity-0 group-hover:opacity-100 group-hover:translate-y-1 transition-all duration-300 ease-in-out"
-              >
-                <li>
-                  <a href="#" class="block px-4 py-2 hover:bg-gray-200">
-                    Nepal</a
-                  >
-                </li>
-                <li>
-                  <a href="#" class="block px-4 py-2 hover:bg-gray-200"
-                    >Bhutan</a
-                  >
-                </li>
-                <li>
-                  <a href="#" class="block px-4 py-2 hover:bg-gray-200"
-                    >Tibet</a
-                  >
-                </li>
-                <li>
-                  <a href="#" class="block px-4 py-2 hover:bg-gray-200"
-                    >Mount Kailash</a
-                  >
-                </li>
-                <li>
-                  <a href="#" class="block px-4 py-2 hover:bg-gray-200"
-                    >Sikkim & Darjeeling</a
-                  >
-                </li>
-              </ul>
-            </ul>
-          </li>
-
-          <!-- Dropdown 1 -->
-          <li class="relative group">
-            <a href="#" class="hover:text-gray-300">NEPAL TOURS AND TREKS</a>
-            <ul
-              class="absolute left-0 mt-2 w-48 bg-white text-gray-900 rounded-md shadow-lg opacity-0 group-hover:opacity-100 group-hover:translate-y-1 transition-all duration-300 ease-in-out"
-            >
+              class="absolute left-0 mt-2 w-48 bg-white text-gray-900 rounded-md shadow-lg opacity-0 group-hover:opacity-100 group-hover:translate-y-1 transition-all duration-300 ease-in-out">
               <li>
-                <a href="#" class="block px-4 py-2 hover:bg-gray-200"
-                  >Everest Base Camp</a
-                >
+                <a href="#" class="block px-4 py-2 hover:bg-gray-200">
+                  Nepal</a>
               </li>
               <li>
-                <a href="#" class="block px-4 py-2 hover:bg-gray-200"
-                  >Annapurna Circuit</a
-                >
+                <a href="#" class="block px-4 py-2 hover:bg-gray-200">Bhutan</a>
+              </li>
+              <li>
+                <a href="#" class="block px-4 py-2 hover:bg-gray-200">Tibet</a>
+              </li>
+              <li>
+                <a href="#" class="block px-4 py-2 hover:bg-gray-200">Mount Kailash</a>
+              </li>
+              <li>
+                <a href="#" class="block px-4 py-2 hover:bg-gray-200">Sikkim & Darjeeling</a>
               </li>
             </ul>
-          </li>
+          </ul>
+        </li>
 
-          <!-- Dropdown 2 -->
-          <li class="relative group">
-            <a href="#" class="hover:text-gray-300">TRAVEL INFO</a>
-            <ul
-              class="absolute left-0 mt-2 w-48 bg-white text-gray-900 rounded-md shadow-lg opacity-0 group-hover:opacity-100 group-hover:translate-y-1 transition-all duration-300 ease-in-out"
-            >
-              <li>
-                <a href="#" class="block px-4 py-2 hover:bg-gray-200"
-                  >Visa Information</a
-                >
-              </li>
-              <li>
-                <a href="#" class="block px-4 py-2 hover:bg-gray-200"
-                  >Best Seasons</a
-                >
-              </li>
-            </ul>
-          </li>
+        <!-- Dropdown 1 -->
+        <li class="relative group">
+          <a href="#" class="hover:text-gray-300">NEPAL TOURS AND TREKS</a>
+          <ul
+            class="absolute left-0 mt-2 w-48 bg-white text-gray-900 rounded-md shadow-lg opacity-0 group-hover:opacity-100 group-hover:translate-y-1 transition-all duration-300 ease-in-out">
+            <li>
+              <a href="#" class="block px-4 py-2 hover:bg-gray-200">Everest Base Camp</a>
+            </li>
+            <li>
+              <a href="#" class="block px-4 py-2 hover:bg-gray-200">Annapurna Circuit</a>
+            </li>
+          </ul>
+        </li>
 
-          <li><a href="#" class="hover:text-gray-300">ABOUT US</a></li>
-          <li><a href="#" class="hover:text-gray-300">BLOG</a></li>
-          <li><a href="#" class="hover:text-gray-300">REVIEWS</a></li>
-          <li><a href="#" class="hover:text-gray-300">CONTACT US</a></li>
-        </ul>
+        <!-- Dropdown 2 -->
+        <li class="relative group">
+          <a href="#" class="hover:text-gray-300">TRAVEL INFO</a>
+          <ul
+            class="absolute left-0 mt-2 w-48 bg-white text-gray-900 rounded-md shadow-lg opacity-0 group-hover:opacity-100 group-hover:translate-y-1 transition-all duration-300 ease-in-out">
+            <li>
+              <a href="#" class="block px-4 py-2 hover:bg-gray-200">Visa Information</a>
+            </li>
+            <li>
+              <a href="#" class="block px-4 py-2 hover:bg-gray-200">Best Seasons</a>
+            </li>
+          </ul>
+        </li>
+
+        <li><a href="#" class="hover:text-gray-300">ABOUT US</a></li>
+        <li><a href="#" class="hover:text-gray-300">BLOG</a></li>
+        <li><a href="#" class="hover:text-gray-300">REVIEWS</a></li>
+        <li><a href="#" class="hover:text-gray-300">CONTACT US</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!--Star and Review Division Starts-->
+  <div class="flex flex-col items-center justify-center">
+    <!-- Menu Icon -->
+    <div class="flex flex-col items-center space-y-1 mb-4 mt-10">
+      <div class="w-6 h-0.5 bg-orange-500"></div>
+      <div class="w-6 h-0.5 bg-orange-500 ml-5"></div>
+      <div class="w-6 h-0.5 bg-orange-500"></div>
+    </div>
+
+    <!-- Title -->
+    <h1 class="text-2xl md:text-3xl font-extrabold text-gray-900 text-center">
+      Everest Base Camp Trek - 14 Days
+    </h1>
+
+    <!-- Subtitle -->
+    <p class="text-gray-600 text-lg font-semibold text-center mt-1">
+      "Scenic, Cultural walks in the shade of Massive Everest Himalaya"
+    </p>
+
+    <!-- Rating -->
+    <div class="flex items-center mt-3">
+      <div class="flex space-x-1 text-green-500">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
       </div>
-    </nav>
+      <span class="text-gray-600 ml-2">based on 2 reviews</span>
+    </div>
+  </div>
+  <!--Star and Review Division Ends-->
 
-    <!--Star and Review Division Starts-->
-    <div class="flex flex-col items-center justify-center">
-      <!-- Menu Icon -->
-      <div class="flex flex-col items-center space-y-1 mb-4 mt-10">
-        <div class="w-6 h-0.5 bg-orange-500"></div>
-        <div class="w-6 h-0.5 bg-orange-500 ml-5"></div>
-        <div class="w-6 h-0.5 bg-orange-500"></div>
+  <!-- Various Options Menu -->
+  <div class="flex justify-between items-center border-b pb-4 mx-10 mt-10">
+    <!-- Left Navigation -->
+    <div class="flex space-x-10">
+      <div class="flex flex-col items-center text-gray-700">
+        <i class="fa fa-camera-retro text-xl"></i>
+        <span class="text-lg mt-1 font-regular">Overview</span>
       </div>
 
-      <!-- Title -->
-      <h1 class="text-2xl md:text-3xl font-extrabold text-gray-900 text-center">
-        Everest Base Camp Trek - 14 Days
-      </h1>
+      <div class="flex flex-col items-center text-gray-700">
+        <i class="fa fa-trash text-xl"></i>
+        <span class="text-lg mt-1 font-regular">Itinerary</span>
+      </div>
 
-      <!-- Subtitle -->
-      <p class="text-gray-600 text-lg font-semibold text-center mt-1">
-        "Scenic, Cultural walks in the shade of Massive Everest Himalaya"
-      </p>
+      <div class="flex flex-col items-center text-gray-700">
+        <i class="fa fa-map text-xl"></i>
+        <span class="text-lg mt-1 font-regular">Trip Map</span>
+      </div>
 
-      <!-- Rating -->
-      <div class="flex items-center mt-3">
-        <div class="flex space-x-1 text-green-500">
-          <i class="fa fa-star"></i>
-          <i class="fa fa-star"></i>
-          <i class="fa fa-star"></i>
-          <i class="fa fa-star"></i>
-          <i class="fa fa-star"></i>
-        </div>
-        <span class="text-gray-600 ml-2">based on 2 reviews</span>
+      <div class="flex flex-col items-center text-gray-700">
+        <i class="fa fa-globe text-xl"></i>
+        <span class="text-lg mt-1 font-regular">Inclusions</span>
+      </div>
+
+      <div class="flex flex-col items-center text-gray-700">
+        <i class="fa fa-calendar text-xl"></i>
+        <span class="text-lg mt-1 font-regular">Cost & Dates</span>
+      </div>
+
+      <div class="flex flex-col items-center text-gray-700">
+        <i class="fa fa-instagram text-xl"></i>
+        <span class="text-lg mt-1 font-regular">Trip Info</span>
+      </div>
+
+      <div class="flex flex-col items-center text-gray-700">
+        <i class="fa fa-male text-xl"></i>
+        <span class="text-lg mt-1 font-regular">Reviews</span>
+      </div>
+
+      <div class="flex flex-col items-center text-gray-700">
+        <i class="fa fa-camera-retro text-xl"></i>
+        <span class="text-lg mt-1 font-regular">FAQs</span>
       </div>
     </div>
-    <!--Star and Review Division Ends-->
 
-    <!-- Various Options Menu -->
-    <div class="flex justify-between items-center border-b pb-4 mx-10 mt-10">
-      <!-- Left Navigation -->
-      <div class="flex space-x-10">
-        <div class="flex flex-col items-center text-gray-700">
-          <i class="fa fa-camera-retro text-xl"></i>
-          <span class="text-lg mt-1 font-regular">Overview</span>
-        </div>
+    <!-- Inquiry Button -->
+    <button class="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700">
+      SEND INQUIRY
+    </button>
+  </div>
 
-        <div class="flex flex-col items-center text-gray-700">
-          <i class="fa fa-trash text-xl"></i>
-          <span class="text-lg mt-1 font-regular">Itinerary</span>
-        </div>
 
-        <div class="flex flex-col items-center text-gray-700">
-          <i class="fa fa-map text-xl"></i>
-          <span class="text-lg mt-1 font-regular">Trip Map</span>
-        </div>
+  <!--Various options menu ends-->
+  <div class="flex flex-col justify-between md:flex-row bg-white shadow-md rounded-lg overflow-hidden mx-10 mt-5">
+    <!-- Left: Image Section -->
+    <div class="w-full md:w-3/4 pr-5">
+      <img src="https://www.state.gov/wp-content/uploads/2023/07/shutterstock_655126330v2.jpg" alt="Placeholder Image"
+        class="w-full h-full object-cover" />
+    </div>
 
-        <div class="flex flex-col items-center text-gray-700">
-          <i class="fa fa-globe text-xl"></i>
-          <span class="text-lg mt-1 font-regular">Inclusions</span>
-        </div>
-
-        <div class="flex flex-col items-center text-gray-700">
-          <i class="fa fa-calendar text-xl"></i>
-          <span class="text-lg mt-1 font-regular">Cost & Dates</span>
-        </div>
-
-        <div class="flex flex-col items-center text-gray-700">
-          <i class="fa fa-instagram text-xl"></i>
-          <span class="text-lg mt-1 font-regular">Trip Info</span>
-        </div>
-
-        <div class="flex flex-col items-center text-gray-700">
-          <i class="fa fa-male text-xl"></i>
-          <span class="text-lg mt-1 font-regular">Reviews</span>
-        </div>
-
-        <div class="flex flex-col items-center text-gray-700">
-          <i class="fa fa-camera-retro text-xl"></i>
-          <span class="text-lg mt-1 font-regular">FAQs</span>
-        </div>
+    <div class="w-96 bg-white shadow-lg rounded-md overflow-hidden border border-gray-200">
+      <div class="p-6 text-center">
+        <p class="text-lg font-semibold">14 Days <em class="text-gray-500 line-through">US$ 1800</em></p>
+        <p class="text-3xl font-semibold mt-1">US$ 1350 <span class="text-xl">PP</span></p>
+        <div class="bg-red-500 text-white px-4 py-1 mt-2 rounded-full inline-block text-sm font-semibold">Save $450 Per
+          Pax</div>
       </div>
 
-      <!-- Inquiry Button -->
-      <button
-        class="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700"
-      >
-        SEND INQUIRY
-      </button>
-    </div>
-    <!--Various options menu ends-->
-    <div
-      class="flex flex-col md:flex-row bg-white shadow-md rounded-lg overflow-hidden"
-    >
-      <!-- Left: Image Section -->
-      <div class="w-full md:w-1/2">
-        <img
-          src="https://www.state.gov/wp-content/uploads/2023/07/shutterstock_655126330v2.jpg"
-          alt="Placeholder Image"
-          class="w-full h-full object-cover"
-        />
+      <div class="bg-blue-50 p-4">
+        <h2 class="text-lg font-semibold">Group Discount Available</h2>
+        <p class="text-sm text-gray-600">**Discounts are solely based on your group size. We do not add anyone to your
+          group.</p>
+        <table class="w-full mt-3 text-left border-t border-gray-300">
+          <thead>
+            <tr>
+              <th class="py-1">No. of Persons</th>
+              <th class="py-1 text-right">Price per Person</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="border-t border-gray-300">
+              <td class="py-1">2 - 3 Pax</td>
+              <td class="py-1 text-right">US$ 1350</td>
+            </tr>
+            <tr class="border-t border-gray-300">
+              <td class="py-1">4 - 7 Pax</td>
+              <td class="py-1 text-right">US$ 1300</td>
+            </tr>
+            <tr class="border-t border-gray-300">
+              <td class="py-1">8 - 13 Pax</td>
+              <td class="py-1 text-right">US$ 1250</td>
+            </tr>
+            <tr class="border-t border-gray-300">
+              <td class="py-1">14 - 21 Pax</td>
+              <td class="py-1 text-right">US$ 1200</td>
+            </tr>
+            <tr class="border-t border-gray-300">
+              <td class="py-1">22 - 30 Pax</td>
+              <td class="py-1 text-right">US$ 1160</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <button class="bg-orange-500 text-white px-4 py-2 mt-5 rounded-md hover:bg-orange-600">
+          GET DETAILS
+        </button>
       </div>
     </div>
-  </body>
+  </div>
+
+  
+
+
+
+</body>
+
 </html>
