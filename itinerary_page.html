@@ -236,13 +236,17 @@
     </button>
   </div> <!--Various options menu ends-->
 
+  <!--Two section style starts here -->
   <div class="flex flex-col justify-between md:flex-row overflow-hidden mx-10 mt-5">
-    <!-- Left: Image Section -->
+    <!-- Left: Section -->
     <div class="w-full md:w-3/4 md:pr-5">
+      <!-- Left: Image Section Starts -->
       <img src="https://www.state.gov/wp-content/uploads/2023/07/shutterstock_655126330v2.jpg" alt="Placeholder Image"
         class="w-full h-[70vh] rounded-md object-cover" loading="lazy" />
+      <!-- Left: Image Section Ends -->
 
-      <div class="bg-blue-50 p-2 rounded-xl max-w-5xl mx-auto border border-gray-300">
+      <!-- Trip Facts Section Starts -->
+      <div class="bg-blue-50 p-2 rounded-xl max-w-5xl mx-auto border border-gray-300 my-5">
         <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
 
           <div class="flex items-center gap-4 py-4">
@@ -253,7 +257,7 @@
             </div>
           </div>
 
-          <div class="flex items-center gap-4 border-b md:border-b-0 md:border-r border-gray-200 py-4">
+          <div class="flex items-center gap-4 border-b md:border-b-0 border-gray-200 py-4">
             <i class="fa fa-camera-retro fa-lg"></i>
             <div>
               <p class="text-sm font-semibold text-gray-700">ACCOMODATION</p>
@@ -261,19 +265,49 @@
             </div>
           </div>
 
-          <div class="flex items-center gap-4 border-b md:border-b-0 md:border-r border-gray-200 py-4">
+          <div class="flex items-center gap-4 border-b md:border-b-0 border-gray-200 py-4">
             <i class="fa fa-camera-retro fa-lg"></i>
             <div>
               <p class="text-sm font-semibold text-gray-700">GROUP SIZE</p>
               <p class="text-sm font-normal text-gray-800">2-10 People</p>
             </div>
           </div>
+        </div>
 
+        <hr class="border-t-1 border-gray-300"> <!--This is for a horizontal line-->
 
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+
+          <div class="flex items-center gap-4 py-4">
+            <i class="fa fa-camera-retro fa-lg"></i>
+            <div>
+              <p class="text-sm font-semibold text-gray-700">DURATION</p>
+              <p class="text-sm font-normal text-gray-800">5 Days</p>
+            </div>
+          </div>
+
+          <div class="flex items-center gap-4 border-b md:border-b-0 border-gray-200 py-4">
+            <i class="fa fa-camera-retro fa-lg"></i>
+            <div>
+              <p class="text-sm font-semibold text-gray-700">ACCOMODATION</p>
+              <p class="text-sm font-normal text-gray-800">3 Star Deluxe</p>
+            </div>
+          </div>
+
+          <div class="flex items-center gap-4 border-b md:border-b-0 border-gray-200 py-4">
+            <i class="fa fa-camera-retro fa-lg"></i>
+            <div>
+              <p class="text-sm font-semibold text-gray-700">GROUP SIZE</p>
+              <p class="text-sm font-normal text-gray-800">2-10 People</p>
+            </div>
+          </div>
         </div>
       </div>
+      <!-- Trip Facts Section Ends -->
 
     </div>
+
+    <!--Right price table starts-->
 
     <div class="sticky top-0 w-96 shadow-lg rounded-md overflow-hidden border border-gray-200 z-10">
       <div class="p-6 text-center">
@@ -323,7 +357,8 @@
         </button>
       </div>
     </div>
-  </div>
+    <!--Right price table ends-->
+  </div> <!--Two section style ends here -->
 
 
 
